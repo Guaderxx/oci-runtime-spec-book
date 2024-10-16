@@ -1,0 +1,15 @@
+[book]
+authors = ["Guaderxx"]
+language = "zh"
+multilingual = false
+src = "src"
+title = "运行时规范"
+
+[output.pandoc.profile.pdf]
+output-file = "oci-runtime-spec_zh.pdf"
+to = "latex"
+# pdf specific settings
+pdf-engine = "xelatex"
+
+[output.pandoc.profile.pdf.variables]
+CJKmainfont = "SimSun"
